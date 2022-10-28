@@ -1,0 +1,27 @@
+.navHeader {
+  font-size: 24px;
+  font-weight: 500;
+  font-family: 'Bree serif';
+  color: linear-gradient(to right, red, yellow);
+}
+.navBar {
+  height: 10vh;
+}
+.navMenu {
+  font-size: 24px;
+  border-radius: 5px;
+  width: 45px;
+  border: 2px solid gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 768px) {
+  .navHeader {
+    font-size: 20px;
+  }
+  .carded:hover {
+    border-width: 2px;
+    background-color: gainsboro;
+  }
+}

@@ -1,0 +1,16 @@
+.chartsContainer {
+  width: 100%;
+}
+.Chart {
+  width: 80%;
+  border-radius: 10px;
+}
+.bar {
+  color: white !important;
+}
+
+@media screen and (max-width: 768px) {
+  .Chart {
+    width: 97%;
+  }
+}

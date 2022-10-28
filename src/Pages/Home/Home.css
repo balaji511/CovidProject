@@ -1,0 +1,77 @@
+.homeContainer {
+  min-height: 90vh;
+  background-color: #161625;
+  display: flex;
+  flex-direction: column;
+}
+.inputContainer {
+  background-color: transparent;
+  width: 70%;
+  align-self: center;
+  background-color: #2f2f43;
+  border-radius: 5px;
+  list-style-type: none;
+}
+.inputType {
+  width: 95%;
+  background-color: transparent;
+  border-width: 0px;
+  color: white;
+  font-size: 15px;
+}
+.tableData {
+  width: 86%;
+}
+.cardsContainer {
+  align-self: center;
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  font-weight: 600;
+  font-family: Roboto;
+}
+.heading {
+  border-bottom: 1px solid white;
+}
+.card {
+  width: 22%;
+  border-width: 0px;
+  font-size: large;
+}
+.includingList {
+  background-color: transparent;
+  width: 71.7%;
+  align-self: center;
+}
+.Link {
+  text-decoration: none;
+}
+.cardLogo {
+  height: 35px;
+  align-self: center;
+}
+.loader {
+  position: relative;
+  top: 150px;
+}
+@media screen and (max-width: 768px) {
+  .inputContainer {
+    width: 90%;
+  }
+  .tableData {
+    width: 98.5%;
+  }
+  .includingList {
+    width: 94.8%;
+  }
+  .card {
+    width: 45%;
+    border: 2px solid gray;
+    padding: 10px;
+    font-weight: bold;
+    margin: 8px;
+  }
+  .cardsContainer {
+    width: 90%;
+  }
+}

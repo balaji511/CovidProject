@@ -1,0 +1,66 @@
+.stateContainer {
+  min-height: 90vh;
+  background-color: #161625;
+  font-family: roboto;
+  display: flex;
+  flex-direction: column;
+}
+.headName {
+  font-size: 29px;
+  background-color: #3f4649;
+  font-family: Hk grotesk;
+  opacity: 0.8;
+  color: rgb(181, 211, 216);
+  align-self: 'center';
+  border-radius: 5px;
+}
+.cardsContainerState {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  font-weight: 600;
+  font-family: Roboto;
+}
+.cardedC {
+  border: 1px solid white;
+  background-color: transparent;
+}
+.cardedA {
+  border: 1px solid white;
+  background-color: transparent;
+}
+.cardedR {
+  border: 1px solid white;
+  background-color: transparent;
+}
+.cardedD {
+  border: 1px solid white;
+  background-color: transparent;
+}
+.cardedC:hover {
+  background-color: #331427;
+  border-width: 02px;
+}
+.cardedD:hover {
+  background-color: #212230;
+  border-width: 02px;
+}
+.cardedA:hover {
+  background-color: #132240;
+  border-width: 02px;
+}
+.cardedR:hover {
+  background-color: #182829;
+  border-width: 02px;
+}
+@media screen and (max-width: 768px) {
+  .headName {
+    font-size: 18px;
+  }
+  .cardsContainerState {
+    width: 100%;
+  }
+}
